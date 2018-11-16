@@ -1,0 +1,166 @@
+V3 95
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/ALU_8bits.vhd 2016/01/22.18:11:28 P.28xd
+EN work/ALU_8bits 1454057833 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/ALU_8bits.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182
+AR work/ALU_8bits/Behavioral 1454057834 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/ALU_8bits.vhd \
+      EN work/ALU_8bits 1454057833
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/CLK_1KHz.vhd 2015/11/18.11:48:14 P.28xd
+EN work/CLK_1KHz 1454057867 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/CLK_1KHz.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/CLK_1KHz/Behavioral 1454057868 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/CLK_1KHz.vhd \
+      EN work/CLK_1KHz 1454057867
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/ControlUnit.vhd 2016/01/27.17:33:13 P.28xd
+EN work/ControlUnit 1454057871 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/ControlUnit.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/ControlUnit/Behavioral 1454057872 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/ControlUnit.vhd \
+      EN work/ControlUnit 1454057871
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Counter_2bits.vhd 2015/11/11.12:41:32 P.28xd
+EN work/Counter_2bits 1454057865 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Counter_2bits.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182
+AR work/Counter_2bits/Behavioral 1454057866 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Counter_2bits.vhd \
+      EN work/Counter_2bits 1454057865
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.vhd 2016/01/18.19:21:58 P.28xd
+EN work/Datapath 1454057839 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/Datapath/Structural 1454057840 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.vhd \
+      EN work/Datapath 1454057839 CP ALU_8bits CP Reg_8bits CP RegFZ
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Debounce.vhd 2016/01/26.11:28:18 P.28xd
+EN work/Debounce 1454057873 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Debounce.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/Debounce/Structural 1454057874 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Debounce.vhd \
+      EN work/Debounce 1454057873 CP DebounceFSM CP FFD CP Timer300ms
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/DebounceFSM.vhd 2015/12/16.11:10:54 P.28xd
+EN work/DebounceFSM 1454057847 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/DebounceFSM.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/DebounceFSM/Behavioral 1454057848 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/DebounceFSM.vhd \
+      EN work/DebounceFSM 1454057847
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Disp7Seg.vhd 2015/10/21.12:08:44 P.28xd
+EN work/Disp7Seg 1454057863 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Disp7Seg.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/Disp7Seg/Behavioral 1454057864 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Disp7Seg.vhd \
+      EN work/Disp7Seg 1454057863
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Display7Seg_4ON.vhd 2016/01/24.18:46:37 P.28xd
+EN work/Display7Seg_4ON 1454057877 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Display7Seg_4ON.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/Display7Seg_4ON/Structural 1454057878 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Display7Seg_4ON.vhd \
+      EN work/Display7Seg_4ON 1454057877 CP Mux4_4bits CP Disp7Seg CP Counter_2bits \
+      CP CLK_1KHz
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/FFD.vhd 2015/11/04.12:47:38 P.28xd
+EN work/FFD 1454057849 FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/FFD.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/FFD/Behavioral 1454057850 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/FFD.vhd EN work/FFD 1454057849
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/IncPC.vhd 2016/01/22.20:49:46 P.28xd
+EN work/IncPC 1454057859 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/IncPC.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182
+AR work/IncPC/Behavioral 1454057860 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/IncPC.vhd EN work/IncPC 1454057859
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Memo_8x8.vhd 2016/01/26.21:46:20 P.28xd
+EN work/Memo_8x8 1454057841 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Memo_8x8.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182
+AR work/Memo_8x8/Behavioral 1454057842 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Memo_8x8.vhd \
+      EN work/Memo_8x8 1454057841
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Memo_Datapath.vhd 2016/01/22.18:07:18 P.28xd
+EN work/Memo_Datapath 1454057843 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Memo_Datapath.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/Memo_Datapath/Structural 1454057844 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Memo_Datapath.vhd \
+      EN work/Memo_Datapath 1454057843 CP Datapath CP Memo_8x8
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/MpxAddress.vhd 2016/01/22.19:45:45 P.28xd
+EN work/MpxAddress 1454057855 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/MpxAddress.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/MpxAddress/Behavioral 1454057856 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/MpxAddress.vhd \
+      EN work/MpxAddress 1454057855
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Mux4_4bits.vhd 2015/11/18.12:44:10 P.28xd
+EN work/Mux4_4bits 1454057861 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Mux4_4bits.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/Mux4_4bits/Behavioral 1454057862 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Mux4_4bits.vhd \
+      EN work/Mux4_4bits 1454057861
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/PC_RI_Memo_Datapath.vhd 2016/01/24.16:37:23 P.28xd
+EN work/PC_RI_Memo_Datapath 1454057869 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/PC_RI_Memo_Datapath.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182
+AR work/PC_RI_Memo_Datapath/Structural 1454057870 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/PC_RI_Memo_Datapath.vhd \
+      EN work/PC_RI_Memo_Datapath 1454057869 CP RI_Memo_Datapath CP MpxAddress \
+      CP RegPC CP IncPC
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegFZ.vhd 2016/01/18.19:01:37 P.28xd
+EN work/RegFZ 1454057837 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegFZ.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/RegFZ/Behavioral 1454057838 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegFZ.vhd EN work/RegFZ 1454057837
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegInst.vhd 2016/01/23.19:21:08 P.28xd
+EN work/RegInst 1454057845 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegInst.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/RegInst/Behavioral 1454057846 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegInst.vhd \
+      EN work/RegInst 1454057845
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegPC.vhd 2016/01/22.20:14:42 P.28xd
+EN work/RegPC 1454057857 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegPC.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/RegPC/Behavioral 1454057858 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RegPC.vhd EN work/RegPC 1454057857
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Reg_8bits.vhd 2016/01/18.18:53:45 P.28xd
+EN work/Reg_8bits 1454057835 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Reg_8bits.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/Reg_8bits/Behavioral 1454057836 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Reg_8bits.vhd \
+      EN work/Reg_8bits 1454057835
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RI_Memo_Datapath.vhd 2016/01/24.16:34:58 P.28xd
+EN work/RI_Memo_Datapath 1454057853 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RI_Memo_Datapath.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/RI_Memo_Datapath/Structural 1454057854 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/RI_Memo_Datapath.vhd \
+      EN work/RI_Memo_Datapath 1454057853 CP Memo_Datapath CP RegInst
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/SimpleMachine.vhd 2016/01/27.14:38:39 P.28xd
+EN work/SimpleMachine 1454057875 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/SimpleMachine.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/SimpleMachine/Structural 1454057876 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/SimpleMachine.vhd \
+      EN work/SimpleMachine 1454057875 CP PC_RI_Memo_Datapath CP ControlUnit \
+      CP Debounce
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Timer300ms.vhd 2015/12/16.11:33:18 P.28xd
+EN work/Timer300ms 1454057851 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Timer300ms.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/Timer300ms/Behavioral 1454057852 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Timer300ms.vhd \
+      EN work/Timer300ms 1454057851
+FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/TOP.vhd 2016/01/26.17:06:14 P.28xd
+EN work/TOP 1454057879 FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/TOP.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/TOP/Structural 1454057880 \
+      FL C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/TOP.vhd EN work/TOP 1454057879 \
+      CP SimpleMachine CP Display7Seg_4ON
