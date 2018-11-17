@@ -1,0 +1,34 @@
+#Clock on pin B8
+NET "CLK" LOC = "B8";
+#Reset on pin G12
+NET "Reset" LOC = "G12";
+#Catodos de los displays
+NET "Catodo<0>" LOC = "M12";
+NET "Catodo<1>" LOC = "L13";
+NET "Catodo<2>" LOC = "P12";
+NET "Catodo<3>" LOC = "N11";
+NET "Catodo<4>" LOC = "N14";
+NET "Catodo<5>" LOC = "H12";
+NET "Catodo<6>" LOC = "L14";
+#Displays del 0 al 3
+NET "Anodo<0>" LOC = "K14";	#SalRegA 7-4 
+NET "Anodo<1>" LOC = "M13";	#SalRegA 3-0
+NET "Anodo<2>" LOC = "J12";	#SalRegB 7-4
+NET "Anodo<3>" LOC = "F12";	#SalRegB 3-0
+#Led's on board
+NET "SalRI<0>" LOC = "M5";
+NET "SalRI<1>" LOC = "M11";
+NET "SalRI<2>" LOC = "P7";
+NET "SalRI<3>" LOC = "P6";
+NET "SalRI<4>" LOC = "N5";
+NET "SalRI<5>" LOC = "N4";
+NET "SalRI<6>" LOC = "P4";
+NET "SalRI<7>" LOC = "G1";
+#Push on button A7
+NET "Push" LOC = "A7";
+#External Led for SalFZ on pin D12
+NET "SalFZ" LOC = "D12";
+#External Led's for AddressBus
+NET "AddressBus<0>" LOC = "C9";
+NET "AddressBus<1>" LOC = "B7";
+NET "AddressBus<2>" LOC = "B5";

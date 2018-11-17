@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Jabikun\Desktop\TDC\Py_SimpleMachine\TOP.ncd
+OUTFILE=C:\Users\Jabikun\Desktop\TDC\Py_SimpleMachine\TOP.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\Jabikun\Desktop\TDC\Py_SimpleMachine
+LICENSE=WebPack
+USER_INFO=211098341_0_0_276
