@@ -1,0 +1,1 @@
+vhdtdtfi -prj Py_SimpleMachine -o C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/MpxAddress.vhi -module MpxAddress -template C:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MpxAddress.vhd 

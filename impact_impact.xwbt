@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Jabikun\Desktop\TDC\Py_SimpleMachine\impact.xsl
+OUTFILE=C:\Users\Jabikun\Desktop\TDC\Py_SimpleMachine\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\Jabikun\Desktop\TDC\Py_SimpleMachine
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,4 @@
+vhdl work "Reg_8bits.vhd"
+vhdl work "RegFZ.vhd"
+vhdl work "ALU_8bits.vhd"
+vhdl work "Datapath.vhd"

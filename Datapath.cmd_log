@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.xst" -ofn "C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.syr" 
+xst -intstyle ise -ifn "C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.xst" -ofn "C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.syr" 
+xst -intstyle ise -ifn "C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.xst" -ofn "C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.syr" 
+vhdtdtfi -prj Py_SimpleMachine -o C:/Users/Jabikun/Desktop/TDC/Py_SimpleMachine/Datapath.vhi -module Datapath -template C:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Reg_8bits.vhd -lib work RegFZ.vhd -lib work ALU_8bits.vhd -lib work Datapath.vhd 
